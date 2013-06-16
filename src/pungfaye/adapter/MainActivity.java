@@ -99,11 +99,12 @@ public class MainActivity extends ListActivity {
 	public MyAdapter(Context context){
 		this.mInflater = LayoutInflater.from(context);
 	}
+//	返回list长度
 	@Override
 	public int getCount(){
 		return mData.size();
 	}
-	
+//返回list元素
 	@Override
 	public Object getItem(int arg0){
 		return 0;
@@ -143,6 +144,7 @@ public class MainActivity extends ListActivity {
         
        return convertView;
     }
+	
 	@Override
 	public long getItemId(int position) {
 		// TODO Auto-generated method stub
